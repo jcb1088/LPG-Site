@@ -30,6 +30,7 @@ h1 {
     color:ghostwhite;
     font-size:40px;
     margin-bottom: 10px;
+    margin-left: -20%;
   }
 
 /* This is for the banner and text within the banner on the top of the page -------------*/
@@ -177,3 +178,14 @@ div.BannerText{
     color: ghostwhite;
     text-decoration: none;
   }
+.EmailForm {
+    margin-left: 10%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.EmailForm body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.EmailForm * {box-sizing: border-box;}

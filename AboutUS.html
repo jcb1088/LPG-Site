@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- 
+  Home Page for LPG's Public Marketing Website
+  Coded by: Joshua Bouchard
+  Last Update: 15Feb2022
+  Description: A physicians’ group has decided to update their customer-facing website with a more modern, responsive design.
+  Class: CSCI497
+-->
+
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>LPG's Website</title>
+        <link rel="stylesheet" href="MyStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    </head>
+
+    <body>
+
+        <h1>LPG Has Served the Local Communicity for 25 Years</h1>
+
+        <!-----------------------Top Banner------------------->
+        <div class="topcontainer">
+            <img src="Images/Banner1.jpg" style="width:100%;">
+            <div class="BannerText">Welcome to the LPG Group</div>
+        </div>
+
+            <!------------------ Navigation Bar--------------------->
+    <div id="navbar">
+        <a href="index.html"><i class="fa fa-home fa-lg"></i> Home Page</a>
+        <a href="Cardiology.html"><i class="fa fa-solid fa-heart-pulse" aria-hidden="true"></i> Cardiology</a>
+        <a href="Oncology.html"><i class="fa fa-solid fa-virus" aria-hidden="true"></i> Oncology</a>
+        <a href="Wellness.html"><i class="fa fa-solid fa-shield-virus" aria-hidden="true"></i> Wellness</a>
+        <a href="Chiropractic.html"><i class="fa fa-solid fa-bone" aria-hidden="true"></i> Chiropractic</a>
+        <a href="Emergency.html"><i class="fa fa-solid fa-star-of-life" aria-hidden="true"></i> Emergency</a>
+      </div>
+
+
+      <!--------------- Main Body ------------------------------->
+
+    <div class="EmailForm">
+        <h2 style="margin-left: -10%;">Use the Form Below to Email Us</h2>
+        <form action="mailto: Joshua.Bouchard@sckans.edu" method="GET">
+            <div style="margin-bottom: 30px;">
+                <label for="Subject">Subject: </label>
+                <input name='subject' type = "text" style="width: 40%;">
+            </div>
+            <div style="margin-bottom: 30px;">
+                <label for="Body">Body:  </label>
+                <textarea name="body" style="height:300px; width: 60%;"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send" />
+            </div>
+        </form>
+    </div>
+
+
+ <!---------------------------------------------------------------------------------------------------------------------------->
+ <div class="bottomBox">
+    <div class="bottomText">
+      <h4> About US - Please Email Us if you Have Any Question</h4>
+      <p>
+        <a href="AboutUS.html" class="email"><i class="fa fa-envelope" aria-hidden="true"></i> Email US</a>
+      </p>
+    </div>
+  </div>
+    </body>
+
+
+
+
+</html>
